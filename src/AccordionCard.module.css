@@ -1,0 +1,34 @@
+.cardContainer {
+  border-radius: 1.4375rem;
+  background: #fff;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
+  width: 20.4375rem;
+  height: 33.4375rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+  .cardContainer {
+    overflow: hidden;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    width: 57.5rem;
+    height: 31.8125rem;
+    border-radius: 23px;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
+  }
+}
